@@ -1,0 +1,10 @@
+Alper Canberk Balcı, 2017400087
+
+In this project I designed a watchdog program. 
+
+I finished it at 15.00 o'clock. For hours I have been trying to solve a little meaningless bug.
+
+The bug is: executor takes correct values from pipe and it sends the correct signal to correct process.
+However, unless process number is 1 and signal is SIGTERM, the process which receives signal actually doesn't receive it. 
+I couldn't solve it why. Other than that program should run in a way it is supposed to do.
+
